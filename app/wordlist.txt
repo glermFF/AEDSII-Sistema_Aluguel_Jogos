@@ -1,0 +1,388 @@
+Dark Souls III, RPG, 12/04/2016
+Overwatch, FPS, 24/05/2016
+Doom (2016), FPS, 13/05/2016
+Inside, Puzzle, 29/06/2016
+Titanfall 2, FPS, 28/10/2016
+Final Fantasy XV, RPG, 29/11/2016
+Uncharted 4: A Thief’s End, Ação, 10/05/2016
+The Witness, Puzzle, 26/01/2016
+Stardew Valley, Simulação, 26/02/2016
+Hyper Light Drifter, Ação, 31/03/2016
+Firewatch, Aventura, 09/02/2016
+Oxenfree, Aventura, 15/01/2016
+Gears of War 4, TPS, 11/10/2016
+The Last Guardian, Aventura, 06/12/2016
+Deus Ex: Mankind Divided, RPG, 23/08/2016
+Pokémon Sun & Moon, RPG, 18/11/2016
+Watch Dogs 2, Ação, 15/11/2016
+Battlefield 1, FPS, 21/10/2016
+FIFA 17, Esportes, 27/09/2016
+Civilization VI, Estratégia, 21/10/2016
+Dishonored 2, Ação, 11/11/2016
+Hitman (2016), Stealth, 11/03/2016
+Forza Horizon 3, Corrida, 27/09/2016
+Max Payne 3, TPS, 15/05/2012
+Far Cry 3, FPS, 29/11/2012
+Halo 4, FPS, 06/11/2012
+XCOM: Enemy Unknown, Estratégia, 09/10/2012
+Mass Effect 3, RPG, 06/03/2012
+Dishonored, Ação, 09/10/2012
+Borderlands 2, FPS, 18/09/2012
+The Walking Dead: The Game, Aventura, 24/04/2012
+Sleeping Dogs, Ação, 14/08/2012
+Assassin’s Creed III, Ação, 30/10/2012
+Diablo III, RPG, 15/05/2012
+Journey, Aventura, 13/03/2012
+Fez, Puzzle, 13/04/2012
+Guild Wars 2, MMORPG, 28/08/2012
+Hitman: Absolution, Stealth, 20/11/2012
+FIFA 13, Esportes, 25/09/2012
+Hotline Miami, Ação, 23/10/2012
+Need for Speed: Most Wanted, Corrida, 30/10/2012
+The Last of Us, Ação, 14/06/2013
+BioShock Infinite, FPS, 26/03/2013
+Grand Theft Auto V, Ação, 17/09/2013
+Tomb Raider, Aventura, 05/03/2013
+Metal Gear Rising: Revengeance, Ação, 19/02/2013
+Dota 2, MOBA, 09/07/2013
+Payday 2, FPS, 13/08/2013
+Splinter Cell: Blacklist, Stealth, 20/08/2013
+Papers, Please, Simulação, 08/08/2013
+Rayman Legends, Plataforma, 29/08/2013
+Metro: Last Light, FPS, 14/05/2013
+Dead Space 3, Terror, 05/02/2013
+State of Decay, Sobrevivência, 05/06/2013
+Total War: Rome II, Estratégia, 03/09/2013
+Fire Emblem: Awakening, RPG, 04/02/2013
+Battlefield 4, FPS, 29/10/2013
+Pokemon X/Y, RPG, 12/10/2013
+The Stanley Parable, Aventura, 17/10/2013
+Assassin’s Creed IV: Black Flag, Ação, 29/10/2013
+Super Mario 3D World, Plataforma, 21/11/2013
+FIFA 14, Esportes, 24/09/2013
+Arma 3, Simulação, 12/09/2013
+Resogun, Arcade, 15/11/2013
+Shadow Warrior, FPS, 26/09/2013
+Brothers: A Tale of Two Sons, Aventura, 07/08/2013
+Rogue Legacy, Roguelike, 27/06/2013
+Don't Starve, Sobrevivência, 23/04/2013
+Outlast, Terror, 04/09/2013
+Killzone: Shadow Fall, FPS, 15/11/2013
+Ni no Kuni: Wrath of the White Witch, RPG, 22/01/2013
+Injustice: Gods Among Us, Luta, 16/04/2013
+Tearaway, Plataforma, 22/11/2013
+Gone Home, Aventura, 15/08/2013
+Call of Duty: Ghosts, FPS, 05/11/2013
+Company of Heroes 2, Estratégia, 25/06/2013
+The Wolf Among Us, Aventura, 11/10/2013
+Gran Turismo 6, Corrida, 06/12/2013
+Monster Hunter 3 Ultimate, RPG, 19/03/2013
+Lego City Undercover, Aventura, 18/03/2013
+Payday: The Heist, FPS, 18/10/2011
+SimCity, Simulação, 05/03/2013
+Dragon's Dogma: Dark Arisen, RPG, 23/04/2013
+Call of Juarez: Gunslinger, FPS, 22/05/2013
+Contrast, Puzzle, 15/11/2013
+Dragon's Crown, RPG, 25/07/2013
+Dust: An Elysian Tail, Ação, 15/08/2012
+Remember Me, Ação, 03/06/2013
+Sonic & All-Stars Racing Transformed, Corrida, 18/11/2012
+NBA 2K13, Esportes, 02/10/2012
+Deadpool, Ação, 25/06/2013
+Aliens: Colonial Marines, FPS, 12/02/2013
+Castlevania: Lords of Shadow - Mirror of Fate, Aventura, 05/03/2013
+StarCraft II: Heart of the Swarm, Estratégia, 12/03/2013
+BattleBlock Theater, Plataforma, 03/04/2013
+Sid Meier's Civilization V: Brave New World, Estratégia, 09/07/2013
+The Wonderful 101, Ação, 23/08/2013
+The Witcher 3: Wild Hunt, RPG, 19/05/2015
+Bloodborne, RPG, 24/03/2015
+Metal Gear Solid V: The Phantom Pain, Ação, 01/09/2015
+Fallout 4, RPG, 10/11/2015
+Rocket League, Esportes, 07/07/2015
+Ori and the Blind Forest, Plataforma, 11/03/2015
+Undertale, RPG, 15/09/2015
+Rainbow Six Siege, FPS, 01/12/2015
+Life is Strange, Aventura, 30/01/2015
+Cities: Skylines, Simulação, 10/03/2015
+Pillars of Eternity, RPG, 26/03/2015
+Dying Light, Ação, 27/01/2015
+Batman: Arkham Knight, Ação, 23/06/2015
+Just Cause 3, Ação, 01/12/2015
+The Elder Scrolls V: Skyrim, RPG, 11/11/2011
+Dark Souls, RPG, 22/09/2011
+Portal 2, Puzzle, 18/04/2011
+Batman: Arkham City, Ação, 18/10/2011
+The Legend of Zelda: Skyward Sword, Aventura, 18/11/2011
+Uncharted 3: Drake's Deception, Ação, 01/11/2011
+Deus Ex: Human Revolution, RPG, 23/08/2011
+Battlefield 3, FPS, 25/10/2011
+The Witcher 2: Assassins of Kings, RPG, 17/05/2011
+L.A. Noire, Aventura, 17/05/2011
+Super Mario 3D Land, Plataforma, 03/11/2011
+Minecraft, Sandbox, 18/11/2011
+Dead Space 2, Terror, 25/01/2011
+Gears of War 3, TPS, 20/09/2011
+Saints Row: The Third, Ação, 15/11/2011
+Call of Duty: Modern Warfare 3, FPS, 08/11/2011
+FIFA 12, Esportes, 27/09/2011
+Forza Motorsport 4, Corrida, 11/10/2011
+Total War: Shogun 2, Estratégia, 15/03/2011
+Terraria, Sandbox, 16/05/2011
+Until Dawn, Terror, 25/08/2015
+SOMA, Terror, 22/09/2015
+Xenoblade Chronicles X, RPG, 04/12/2015
+Resident Evil 7: Biohazard, Terror, 24/01/2017
+Horizon Zero Dawn, Ação, 28/02/2017
+The Legend of Zelda: Breath of the Wild, Aventura, 03/03/2017
+Persona 5, RPG, 04/04/2017
+Nier: Automata, RPG, 23/02/2017
+Cuphead, Plataforma, 29/09/2017
+Super Mario Odyssey, Plataforma, 27/10/2017
+Hollow Knight, Metroidvania, 24/02/2017
+Nioh, RPG, 07/02/2017
+Splatoon 2, TPS, 21/07/2017
+Divinity: Original Sin 2, RPG, 14/09/2017
+What Remains of Edith Finch, Aventura, 25/04/2017
+Hellblade: Senua’s Sacrifice, Ação, 08/08/2017
+Wolfenstein II: The New Colossus, FPS, 27/10/2017
+PlayerUnknown’s Battlegrounds, Battle Royale, 20/12/2017
+Assassin’s Creed Origins, Ação, 27/10/2017
+Sonic Mania, Plataforma, 15/08/2017
+For Honor, Ação, 14/02/2017
+Resident Evil 2 (Remake), Terror, 25/01/2019
+Celeste, Plataforma, 25/01/2018
+Red Dead Redemption 2, Ação, 26/10/2018
+God of War, Ação, 20/04/2018
+Spider-Man, Ação, 07/09/2018
+Monster Hunter: World, RPG, 26/01/2018
+Super Smash Bros. Ultimate, Luta, 07/12/2018
+Call of Duty: Black Ops 4, FPS, 12/10/2018
+Far Cry 5, FPS, 27/03/2018
+FIFA 19, Esportes, 28/09/2018
+Octopath Traveler, RPG, 13/07/2018
+Dragon Ball FighterZ, Luta, 26/01/2018
+Dead Cells, Roguelike, 07/08/2018
+Hitman 2, Stealth, 13/11/2018
+Shadow of the Tomb Raider, Aventura, 14/09/2018
+A Way Out, Aventura, 23/03/2018
+Detroit: Become Human, Aventura, 25/05/2018
+Assassin’s Creed Odyssey, Ação, 05/10/2018
+Vampyr, RPG, 05/06/2018
+Sea of Thieves, Aventura, 20/03/2018
+State of Decay 2, Sobrevivência, 22/05/2018
+The Messenger, Plataforma, 30/08/2018
+The Forest, Sobrevivência, 30/04/2018
+Frostpunk, Estratégia, 24/04/2018
+We Happy Few, Aventura, 10/08/2018
+NBA 2K18, Esportes, 19/09/2017
+Subnautica, Sobrevivência, 23/01/2018
+Pillars of Eternity II: Deadfire, RPG, 08/05/2018
+Warhammer: Vermintide 2, Ação, 08/03/2018
+Darksiders III, Ação, 27/11/2018
+Slay the Spire, Estratégia, 15/11/2017
+Donut County, Puzzle, 28/08/2018
+BattleTech, Estratégia, 24/04/2018
+LEGO DC Super-Villains, Ação, 16/10/2018
+Yakuza 6: The Song of Life, Ação, 17/04/2018
+My Friend Pedro, Ação, 20/06/2019
+Halo: Combat Evolved, FPS, 15/11/2001
+Grand Theft Auto III, Ação, 22/10/2001
+Metal Gear Solid 2: Sons of Liberty, Stealth, 13/11/2001
+Max Payne, Tiro, 23/07/2001
+Final Fantasy X, RPG, 19/07/2001
+Silent Hill 2, Terror, 24/09/2001
+Super Smash Bros. Melee, Luta, 21/11/2001
+Tony Hawk's Pro Skater 3, Esportes, 28/10/2001
+Jak and Daxter: The Precursor Legacy, Plataforma, 03/12/2001
+Devil May Cry, Ação, 23/08/2001
+The Legend of Zelda: Oracle of Ages, Aventura, 27/02/2001
+The Legend of Zelda: Oracle of Seasons, Aventura, 27/02/2001
+Ico, Aventura, 06/12/2001
+Advance Wars, Estratégia, 10/09/2001
+Baldur's Gate: Dark Alliance, RPG, 04/12/2001
+Red Faction, FPS, 22/05/2001
+Luigi's Mansion, Aventura, 14/09/2001
+Wave Race: Blue Storm, Corrida, 14/09/2001
+Black & White, Estratégia, 27/03/2001
+Gran Turismo 3: A-Spec, Corrida, 28/04/2001
+Pro Evolution Soccer, Esportes, 23/10/2001
+Return to Castle Wolfenstein, FPS, 19/11/2001
+Final Fantasy XI, RPG, 16/05/2002
+The Elder Scrolls III: Morrowind, RPG, 01/05/2002
+Super Mario Sunshine, Plataforma, 19/07/2002
+Warcraft III: Reign of Chaos, Estratégia, 03/07/2002
+Battlefield 1942, FPS, 10/09/2002
+Kingdom Hearts, RPG, 28/03/2002
+Grand Theft Auto: Vice City, Ação, 29/10/2002
+Metroid Prime, Aventura, 18/11/2002
+Resident Evil (Remake), Terror, 22/03/2002
+Medal of Honor: Allied Assault, FPS, 22/01/2002
+Need for Speed: Hot Pursuit 2, Corrida, 02/10/2002
+Age of Mythology, Estratégia, 30/10/2002
+Neverwinter Nights, RPG, 18/06/2002
+Hitman 2: Silent Assassin, Stealth, 01/10/2002
+Tom Clancy's Splinter Cell, Stealth, 17/11/2002
+The Getaway, Ação, 11/12/2002
+NBA 2K3, Esportes, 07/10/2002
+Phantasy Star Online Episode I & II, RPG, 30/10/2002
+Fire Emblem: The Blazing Blade, Estratégia, 25/04/2003
+Star Wars: Knights of the Old Republic, RPG, 16/07/2003
+Prince of Persia: The Sands of Time, Aventura, 06/11/2003
+Beyond Good & Evil, Aventura, 11/11/2003
+Call of Duty, FPS, 29/10/2003
+Mario Kart: Double Dash!!, Corrida, 07/11/2003
+Viewtiful Joe, Ação, 26/06/2003
+Max Payne 2: The Fall of Max Payne, Tiro, 14/10/2003
+Project Gotham Racing 2, Corrida, 17/11/2003
+SSX 3, Esportes, 20/10/2003
+Ratchet & Clank: Going Commando, Ação, 11/11/2003
+Final Fantasy X-2, RPG, 13/03/2003
+WarioWare, Inc.: Mega Microgames!, Puzzle, 21/03/2003
+F-Zero GX, Corrida, 25/07/2003
+Warcraft III: The Frozen Throne, Estratégia, 01/07/2003
+The Legend of Zelda: The Wind Waker, Aventura, 13/12/2002
+Counter-Strike: Condition Zero, FPS, 23/03/2004
+Metal Gear Solid: The Twin Snakes, Stealth, 09/03/2004
+Unreal Tournament 2004, FPS, 16/03/2004
+Far Cry, FPS, 23/03/2004
+Hitman: Contracts, Stealth, 20/04/2004
+The Chronicles of Riddick: Escape from Butcher Bay, Ação, 01/06/2004
+Ninja Gaiden, Ação, 02/03/2004
+Tom Clancy's Splinter Cell: Pandora Tomorrow, Stealth, 23/03/2004
+Grand Theft Auto: San Andreas, Ação, 26/10/2004
+Halo 2, FPS, 09/11/2004
+Half-Life 2, FPS, 16/11/2004
+Metal Gear Solid 3: Snake Eater, Stealth, 17/11/2004
+Need for Speed: Underground 2, Corrida, 09/11/2004
+The Sims 2, Simulação, 14/09/2004
+World of Warcraft, MMORPG, 23/11/2004
+Rome: Total War, Estratégia, 22/09/2004
+Spider-Man 2, Ação, 28/06/2004
+Burnout 3: Takedown, Corrida, 08/09/2004
+Pokemon FireRed & LeafGreen, RPG, 29/01/2004
+Ratchet & Clank: Up Your Arsenal, Ação, 03/11/2004
+God of War, Ação, 22/03/2005
+Resident Evil 4, Terror, 11/01/2005
+Psychonauts, Aventura, 19/04/2005
+Devil May Cry 3: Dante's Awakening, Ação, 17/02/2005
+Forza Motorsport, Corrida, 03/05/2005
+Star Wars: Battlefront II, Ação, 31/10/2005
+Shadow of the Colossus, Aventura, 18/10/2005
+Civilization IV, Estratégia, 25/10/2005
+Guitar Hero, Música, 08/11/2005
+Call of Duty 2, FPS, 25/10/2005
+F.E.A.R., Terror, 17/10/2005
+Mario Kart DS, Corrida, 14/11/2005
+Dragon Quest VIII, RPG, 27/11/2004
+Age of Empires III, Estratégia, 18/10/2005
+The Warriors, Ação, 17/10/2005
+Battlefield 2, FPS, 21/06/2005
+Advance Wars: Dual Strike, Estratégia, 22/08/2005
+Tom Clancy's Splinter Cell: Chaos Theory, Stealth, 28/03/2005
+Burnout Revenge, Corrida, 13/09/2005
+Pokemon Emerald, RPG, 16/09/2004
+Need for Speed: Most Wanted, Corrida, 15/11/2005
+The Legend of Zelda: The Minish Cap, Aventura, 04/11/2004
+Prince of Persia: The Two Thrones, Aventura, 01/12/2005
+Black, FPS, 23/02/2006
+Super Mario World, Plataforma, 21/11/1990
+The Legend of Zelda: A Link to the Past, Aventura, 21/11/1991
+Street Fighter II, Luta, 01/03/1991
+Sonic the Hedgehog 2, Plataforma, 21/11/1992
+Mortal Kombat II, Luta, 31/03/1993
+Doom, FPS, 10/12/1993
+Super Metroid, Aventura/Plataforma, 19/03/1994
+Donkey Kong Country, Plataforma, 01/11/1994
+Earthworm Jim, Plataforma, 15/10/1994
+Final Fantasy VI, RPG, 02/04/1994
+Rayman, Plataforma, 01/06/1995
+Chrono Trigger, RPG, 11/03/1995
+Suikoden, RPG, 21/11/1995
+Lufia II: Rise of the Sinistrals, RPG, 30/09/1996
+Crash Bandicoot, Plataforma, 09/09/1996
+Resident Evil, Survival Horror, 22/03/1996
+Quake, FPS, 22/06/1996
+Tekken, Luta, 01/07/1994
+Virtua Fighter 2, Luta, 01/06/1994
+Mega Man X, Ação/Plataforma, 17/12/1993
+GoldenEye 007, FPS, 25/08/1997
+Final Fantasy VII, RPG, 31/01/1997
+Castlevania: Symphony of the Night, Ação/Aventura, 20/03/1997
+Gran Turismo, Simulação/Corrida, 23/12/1997
+Resident Evil 2, Survival Horror, 21/01/1998
+Metal Gear Solid, Ação/Stealth, 03/09/1998
+The Legend of Zelda: Ocarina of Time, Aventura, 21/11/1998
+Half-Life, FPS, 19/11/1998
+Final Fantasy VIII, RPG, 11/02/1999
+Tony Hawk's Pro Skater, Esporte/Skate, 29/09/1999
+Gran Turismo 2, Simulação/Corrida, 23/12/1999
+Silent Hill, Survival Horror, 29/01/1999
+Star Fox 64, Ação/Aventura, 25/06/1997
+Banjo-Kazooie, Plataforma/Aventura, 29/06/1998
+Chrono Cross, RPG, 11/11/1999
+Final Fantasy IX, RPG, 07/07/2000
+Donkey Kong Country 2: Diddy's Kong Quest, Plataforma, 07/11/1995
+Donkey Kong Country 3: Dixie Kong's Double Trouble, Plataforma, 22/11/1996
+Perfect Dark, FPS, 22/05/2000
+Castlevania: Rondo of Blood, Ação/Aventura, 27/10/1993
+Street Fighter Alpha 3, Luta, 01/07/1998
+Tekken 3, Luta, 01/07/1997
+Virtua Fighter 3, Luta, 01/07/1996
+Super Smash Bros., Luta, 21/01/1999
+Mario Kart 64, Corrida, 14/06/1997
+Wave Race 64, Corrida, 29/11/1996
+Star Wars: TIE Fighter, Simulação, 01/02/1994
+Wing Commander IV, Ação/Simulação, 01/03/1996
+Command & Conquer: Tiberian Dawn, Estratégia, 15/03/1995
+SimCity 2000, Simulação/Estratégia, 30/05/1993
+The Sims, Simulação, 04/02/2000
+Diablo, RPG/Ação, 31/12/1996
+Diablo II, RPG/Ação, 31/05/2000
+Quake II, FPS, 09/12/1997
+Quake III Arena, FPS, 02/12/1999
+Unreal Tournament, FPS, 30/04/1999
+Descent, FPS, 14/09/1995
+Duke Nukem 3D, FPS, 29/09/1996
+Spyro the Dragon, Plataforma, 10/09/1998
+Crash Bandicoot 2: Cortex Strikes Back, Plataforma, 14/09/1997
+Crash Bandicoot: Warped, Plataforma, 25/09/1998
+Jet Set Radio, Ação/Plataforma, 29/10/2000
+Need for Speed III: Hot Pursuit, Corrida, 01/03/1998
+Ridge Racer Type 4, Corrida, 03/12/1999
+F-Zero X, Corrida, 21/07/1998
+Sonic & Knuckles, Plataforma, 18/11/1994
+EarthBound, RPG/Aventura, 25/08/1995
+Final Fantasy Tactics, Estratégia/RPG, 20/06/1997
+Suikoden II, RPG, 21/02/1999
+Persona 2: Innocent Sin, RPG, 29/10/1999
+Xenogears, RPG, 11/02/1998
+Star Ocean: The Second Story, RPG, 29/10/1998
+Vagrant Story, RPG/Ação, 26/07/2000
+Legend of Legaia, RPG, 30/11/1998
+Alundra, Aventura/RPG, 31/07/1997
+Metal Slug, Run and Gun, Ação, 01/07/1996
+Metal Slug 2, Run and Gun, Ação, 01/07/1998
+Contra: Hard Corps, Ação, 01/11/1994
+Castlevania: Bloodlines, Ação, 21/11/1994
+Mega Man X4, Ação/Plataforma, 01/06/1997
+X-Men vs. Street Fighter, Luta, 01/07/1996
+Street Fighter Alpha, Luta, 15/03/1995
+Shinobi, Ação, 01/08/1993
+Killer Instinct, Luta, 01/12/1994
+Gradius III, Shoot 'em up, 01/03/1990
+Mortal Kombat 3, Luta, 01/07/1995
+1942, Shoot 'em up, 01/02/1994
+Tekken 2, Luta, 01/07/1995
+OutRun 2, Corrida, 01/09/1999
+Soul Calibur, Luta, 01/12/1998
+Final Fantasy IV, RPG, 25/07/1991
+Street Fighter III, Luta, 01/07/1997
+Marvel vs. Capcom: Clash of Super Heroes, Luta, 01/09/1998
+Gunstar Heroes, Ação/Plataforma, 01/11/1993
+R-Type Delta, Shoot 'em up, 01/05/1998
+Raiden, Shoot 'em up, 01/04/1990
+Parodius, Shoot 'em up, 01/05/1990
+Mega Man X, Ação/Plataforma, 17/12/1993
+Phantasy Star Online, MMORPG, 07/12/2000
+Castlevania: Symphony of the Night, Ação/Aventura, 20/03/1997
