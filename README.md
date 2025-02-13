@@ -11,9 +11,11 @@ Este projeto foi desenvolvido para a disciplina de Algoritmos e Estruturas de Da
 
 ### 📌 Funcionalidades
 
-#### Part I
+#### Parte I
 
-Aprendemos os principais fundamentos para trabalhar com arquivos e armazenar os devidos dados com menor buscando minimizar o uso da memória principal e focar no uso da memória secundária. Nesta primeira versão o programa traz:
+Aprendemos formas de gerar novos arquivos e armazenar os devidos dados com menor uso possível da memória principal. Nesta primeira versão o programa traz.
+
+Aprendemos formas de gerar novos arquivos e armazenar os devidos dados com menor uso possível da memória principal. Nesta primeira versão o programa traz:
 
 - Criação de base de dados;
 - Sistema de reserva;
@@ -22,6 +24,22 @@ Aprendemos os principais fundamentos para trabalhar com arquivos e armazenar os 
 - Algoritmos de Busca:
   - Busca Sequêncial;
   - Busca Binária;
+
+
+#### Parte II
+
+Para a segunda etapa deste projeto, será implementado funcionalidadesde de algoritmos de ordenação parar os dados gerados de forma aleatória e a ordenação
+por peio de partições.
+
+Nesta nova etapa, decidi mudar a stack para C++ devido a sua característica de Linguagem POO.
+
+Implementações:
+
+- Criação de partições;
+- Estruturação e ordenação da base de dados utilizando as partições geradas;
+- Algoritmos de Ordenação:
+  - Selection Sort;
+  - Insertion Sort;
 
 ---
 
