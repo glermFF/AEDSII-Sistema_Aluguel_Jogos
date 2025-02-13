@@ -12,17 +12,34 @@ A aplicação permite que os usuários busquem por jogos utilizando um ID regist
 
 ### 📌 Funcionalidades
 
-#### Part I
+#### Parte I
 
-Aprendemos formas de gerar novos arquivos e armazenar os devidos dados com menor uso possível da memória principal. Nesta primeira versão o programa traz:
+Aprendemos formas de gerar novos arquivos e armazenar os devidos dados com menor uso possível da memória principal. Nesta primeira versão o programa traz.
+
+Implementações:
 
 - Criação de base de dados;
-
 - Sistema de reserva;
 - Aluguel e controle de disponibilidade;
 - Algoritmos de Busca:
   - Busca Sequêncial;
   - Busca Binária;
+
+
+#### Parte II
+
+Para a segunda etapa deste projeto, será implementado funcionalidadesde de algoritmos de ordenação parar os dados gerados de forma aleatória e a ordenação
+por peio de partições.
+
+Nesta nova etapa, decidi mudar a stack para C++ devido a sua característica de Linguagem POO.
+
+Implementações:
+
+- Criação de partições;
+- Estruturação e ordenação da base de dados utilizando as partições geradas;
+- Algoritmos de Ordenação:
+  - Selection Sort;
+  - Insertion Sort;
 
 ---
 
