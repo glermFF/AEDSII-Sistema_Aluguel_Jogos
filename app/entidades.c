@@ -4,7 +4,59 @@
 #include <string.h>
 #include <time.h>
 
-// Base dos Clientes
+/* Funções Gerais*/
+
+// Embaralhar Dados
+EstCliente *embaralhar(EstCliente *dados, int tam){
+    srand(time(NULL));
+
+    int rand_id = 0;
+
+    for(int i = tam - 1; i > 0; i--){
+        rand_id = rand() % (i + 1);
+        EstCliente temp = dados[i];
+        dados[i] = dados[rand_id];
+        dados[rand_id] = temp;
+
+    }
+
+    return dados;
+}
+
+// Ler Dados
+void ler_dados_clientes(FILE *file){
+
+    EstCliente *clientes = (EstCliente *) malloc(sizeof(EstCliente));
+    while (fread(clientes, sizeof(EstCliente), 1, file) == 1){
+        printf("-----------------------------------\n");
+        printf("ID: %d\n", clientes->id);
+        printf("Cliente: %s | %s\n", clientes->nome_completo, clientes->data_nacimento);
+        printf("Email: %s\n", clientes->email);
+        printf("Jogo alugado: %s\n", clientes->jogo_alugado);
+        printf("-----------------------------------\n");
+    }    
+}
+
+void ler_dados_jogos(FILE *file){
+    Estjogos *jogo = (Estjogos *) malloc(sizeof(Estjogos));
+
+    while (fread(jogo, sizeof(Estjogos), 1, file) == 1){
+        printf("-----------------------------------\n");
+        printf("ID: %d\n", jogo->id);
+        printf("Nome: %s\n", jogo->nome);
+        printf("Estilo: %s\n", jogo->tipo);
+        printf("Data de Lancamento: %s", jogo->data_lancamento);
+        printf("\nÚltimo Emprestimo: %s\n", jogo->data_ultimo_emprestimo);
+        if (jogo->disponivel == 1){
+            printf("Estado: Disponível\n");
+        } else {
+            printf("Estado: Alugado | Cliente: %d\n ", jogo->id_cliente_aluguel);
+        }
+        printf("-----------------------------------\n");      
+    }
+}
+
+/* Base dos Clientes */
 
 int quantidade_clientes(FILE *file){
     EstCliente cliente;
@@ -19,10 +71,17 @@ int quantidade_clientes(FILE *file){
 }
 
 void cadastrar_cliente(FILE *file){
-    EstCliente *cliente = (EstCliente *)malloc(sizeof(EstCliente));
+    EstCliente *cliente;
+
+    if ((file == NULL)){
+        printf("Nenhuma lista foi encontrada. Verifique a base de dados.\n");
+        return;
+    }
 
     printf("\tCadastre-se\n");
     printf("==============================================\n");
+
+    cliente = (EstCliente *)malloc(sizeof(EstCliente));
 
     int new_id = quantidade_clientes(file);
     cliente->id = new_id + 1;
@@ -43,6 +102,8 @@ void cadastrar_cliente(FILE *file){
 }
 
 void imprimir_clientes(FILE *file){
+    int choice;
+
     printf("\tClientes Registrados\n");
     printf("=========================================\n");
 
@@ -50,31 +111,32 @@ void imprimir_clientes(FILE *file){
         printf("Nenhuma lista foi encontrada. Verifique a base de dados.\n");
         return;
     }
-    file = fopen("bd_cli.dat", "rb");
     rewind(file);
-    EstCliente *clientes = (EstCliente *) malloc(sizeof(EstCliente));
 
-    while (fread(clientes, sizeof(EstCliente), 1, file) == 1){
-        printf("-----------------------------------\n");
-        printf("ID: %d\n", clientes->id);
-        printf("Cliente: %s | %s\n", clientes->nome_completo, clientes->data_nacimento);
-        printf("Email: %s\n", clientes->email);
-        printf("Jogo alugado: %s\n", clientes->jogo_alugado);
-        printf("-----------------------------------\n");
-    }
+    ler_dados_clientes(file);
 
-    int choice;
-    printf("Procurar por um cliente?(Sim - 1 | Não - 0)\n>> ");
+    printf("0 - Sair\n1 - Procurar por um cliente\n2 - Gerar partições\n>> ");
     scanf("%d", &choice);
 
-    if (choice == 1){
-        buscar_cliente(file);
-    } else if (choice == 0){
+    switch (choice)
+    {
+    case 0:
         printf("Voltando ao menu...\n");
-        return;
+        break;
+    
+    case 1:
+        buscar_cliente(file);
+        break;
+
+    case 2:
+        int num_part = selecao_substituicao(file);
+        unir_particoes(num_part);
+        break;
+
+    default:
+        break;
     }
 
-    printf("Voltando ao menu...");
 }
 
 FILE *db_clientes(FILE *file){
@@ -102,14 +164,15 @@ FILE *db_clientes(FILE *file){
     printf("Tamanho da lista:\n>> ");
     scanf("%d", &tamanho_lista);
 
+    cliente = embaralhar(cliente, tamanho_lista);
+    
     fwrite(cliente, sizeof(EstCliente), tamanho_lista, file);
     printf("Lista foi gerada com sucesso\n");
     free(cliente);
-    fclose(file);
     return file;   
 }
 
-// Base dos Jogos
+/* Base dos Jogos */
 
 int quantidade_jogos(FILE *file){
     Estjogos cliente;
@@ -125,8 +188,14 @@ int quantidade_jogos(FILE *file){
 }
 
 void novo_jogo(FILE *file){
-    Estjogos *jogo = (Estjogos *)malloc(sizeof(Estjogos));
+    Estjogos *jogo;
 
+    if ((file == NULL)){
+        printf("Nenhum catálogo encontrado. Verifique a base de dados.\n");
+        return;
+    }
+
+    jogo = (Estjogos *)malloc(sizeof(Estjogos));
     int id = quantidade_jogos(file);
     jogo->id = id + 1;
 
@@ -139,7 +208,7 @@ void novo_jogo(FILE *file){
     printf("Data de Lançamento(DD-MM-AAAA): ");
     scanf(" %[^\n]", jogo->data_lancamento);
 
-    jogo->disponivel = 1; //? 1 - Disponível para aluguel | 0 - Já foi alugado
+    jogo->disponivel = 1; //* 1 - Disponível para aluguel | 0 - Já foi alugado
 
     fwrite(jogo, sizeof(Estjogos), 1, file);
 
@@ -180,6 +249,8 @@ FILE *bd_jogos(FILE *file){
 }
 
 void imprimir_catalogo(FILE *file){
+    int option;
+
     printf("\tCatálogo de Jogos\n");
     printf("==============================================\n");
 
@@ -188,23 +259,8 @@ void imprimir_catalogo(FILE *file){
         return;
     }
     rewind(file);
-    int option;
-    Estjogos *jogo = (Estjogos *) malloc(sizeof(Estjogos));
 
-    while (fread(jogo, sizeof(Estjogos), 1, file) == 1){
-        printf("-----------------------------------\n");
-        printf("ID: %d\n", jogo->id);
-        printf("Nome: %s\n", jogo->nome);
-        printf("Estilo: %s\n", jogo->tipo);
-        printf("Data de Lancamento: %s", jogo->data_lancamento);
-        printf("\nÚltimo Emprestimo: %s\n", jogo->data_ultimo_emprestimo);
-        if (jogo->disponivel == 1){
-            printf("Estado: Disponível\n");
-        } else {
-            printf("Estado: Alugado | Cliente: %d\n ", jogo->id_cliente_aluguel);
-        }
-        printf("-----------------------------------\n");      
-    }
+    ler_dados_jogos(file);
 
     printf("1 - Buscar por um jogo | 2 - Voltar ao menu\n");
     scanf("%d", &option);
@@ -215,7 +271,10 @@ void imprimir_catalogo(FILE *file){
         scanf("%d", &id);
         buscar_jogo(file, id);
        
-    } else if (option == 2) {return;}
+    } else if (option == 2){
+            printf("Voltando ao menu...\n");
+            return;
+        }
 
 }
 
@@ -414,4 +473,66 @@ void buscar_jogo(FILE *file, int id){
     
     }
     free(procurado);
+}
+
+/* PARTICIONAMENTO */
+int selecao_substituicao(FILE *file) {
+    int reg = 0, particoes = 0, limite = 5;
+    int quantidade = quantidade_clientes(file);
+    char partitionName[20];
+
+    rewind(file);
+
+    while (reg < quantidade) { 
+        EstCliente vetor[limite];
+        int index = 0;
+
+        //* Leitura de até 'limite' registros ou até o fim do arquivo
+        while (index < limite && fread(&vetor[index], sizeof(EstCliente), 1, file) == 1) {
+            index++;
+            reg++;
+        }
+
+        //* Criação de partição
+        sprintf(partitionName, "partition%i.dat", particoes);
+
+        FILE *p = fopen(partitionName, "wb+");
+        if (p == NULL) {
+            printf("Erro ao criar a partição %i\n", particoes);
+            return -1; // Erro
+        }
+
+        //* Escrita dos registros ordenados na partição
+        for (int i = 0; i < index; i++) {
+            fwrite(&vetor[i], sizeof(EstCliente), 1, p);
+        }
+
+        ler_dados_clientes(p);
+
+        sleep(2);
+        fclose(p);
+        particoes++;
+    }
+
+    printf("Foi\n");
+    printf("As partições %d foram geradas!\n", particoes);
+    sleep(2);
+    return particoes;
+}
+
+void unir_particoes(int partitions){
+    char parName[20];
+    EstCliente dados;
+    FILE *f = fopen("bd_cli.dat", "wb");
+
+    for(int i = 0; i < partitions; i++){
+        sprintf(parName, "partition%d.dat", i);
+        FILE *partition = fopen(parName, "rb");
+
+         while (fread(&dados, sizeof(EstCliente), 1, partition) == 1){
+            fwrite(&dados, sizeof(EstCliente), quantidade_clientes(partition),f);
+        }
+
+        remove(parName);
+    }
 }
