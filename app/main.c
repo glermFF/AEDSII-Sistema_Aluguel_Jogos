@@ -1,4 +1,6 @@
-#include "entidades.c"
+#include "jogos.c"
+#include "clientes.c"
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -19,14 +21,14 @@ int main(){
         case 1:
             system("clear");
             imprimir_catalogo(base_catalogo);
-            sleep(2);
+            sleep(1);
             break;
         case 2:
             system("clear");
             imprimir_clientes(base_clientes);
-            sleep(3);
+            sleep(1);
             break;
-        case 3:
+        case 3: 
             system("clear");
             printf("1 - Gerar Catalogo de Jogos\n2 - Gerar Lista de Clientes\n >> ");
             scanf("%d", &option2);
@@ -36,15 +38,16 @@ int main(){
             if (option2 == 2){
                 base_clientes = db_clientes(base_clientes);
             }
-            sleep(2);
+            sleep(3);
             break;
         case 4:
+            system("clear");
             novo_jogo(base_catalogo);
             break;
         case 5:
             system("clear");
             cadastrar_cliente(base_clientes);
-            sleep(2);
+            sleep(3);
             break;
         case 6:
             printf("Saindo...\n");
@@ -54,9 +57,9 @@ int main(){
             printf("Não há esta opção em nosso menu\n");
         }
     } while(option != 6);
+    //limpar_dados();
     exit(1);
 }
-
 
 void telaInicial(){
     printf("==============================================\n");
