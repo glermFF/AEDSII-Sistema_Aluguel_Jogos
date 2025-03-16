@@ -33,7 +33,9 @@ Aprendemos metódos de particionamendo dentro da memória secundária por meio d
 - Mesclagem das partições na montagem de uma base de dados ordenada;
 - Algoritmos usados:
   - Seleção Natural;
-  - MergeSort;
+  - ShellSort;
+
+obs: o ShellSort foi usado como meio de comparação da eficiência entre o uso da ordenação feita para ordenar dados dem disco e um que é usado para ordenar dados em memória;
 
 ### Versões
 
